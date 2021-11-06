@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+        }
+        .cointainer{
+            width: 300px;
+            height: 300px;
+            background-color: burlywood;
+            background-size: contain;
+            background-position: bottom;
+
+        }
+        div{
+            background-position: centre;
+        }
+        h1{
+            height: 20px;
+            color: rgb(36, 35, 33);
+        }
+        h2{
+            color: rgb(15, 15, 14);
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div class="cointainer">
+            
+        <h1>Z-library</h1>
+        <br>
+        <h2>sign-in/sign-up</h2>
+        <form action="form.php">
+            <input type ="text" placeholder="Email">
+        
+<h1></h1>
+<input type ="text" placeholder="password">
+<br>
+<h1></h1>
+<input class="favorite styled" type="button" value="Book">
+<input class="favorite styled" type="button" value="Articles">
+<br>
+<h1></h1>
+<input class="favorite style" type ="button" value="sign in">
+        </form>
+        </div>
+    </body>
+</html>
+        
